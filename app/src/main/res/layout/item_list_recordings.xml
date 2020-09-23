@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <ImageView
+            android:id="@+id/imageView_Foto_Registrazione"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:padding="10dp" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="380dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="3"
+            android:layout_toRightOf="@+id/imageView_Foto_Registrazione">
+
+            <TextView
+                android:id="@+id/textView_Nome_Registrazione"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="start|center_vertical"
+                android:text="TextView"
+                android:textColor="@color/bianco" />
+
+            <TextView
+                android:id="@+id/textView_Data_Registrazione"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="start|center_vertical"
+                android:text="TextView"
+                android:textColor="@color/bianco" />
+
+            <TextView
+                android:id="@+id/textView_Durata_Registrazione"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="start|center_vertical"
+                android:text="TextView"
+                android:textColor="@color/bianco" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>

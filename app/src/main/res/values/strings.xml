@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Study Life</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+
+
+    <!-- Navigation Drawer menu -->
+    <string name="nav_materie">Materie</string>
+    <string name="nav_orario">Orario</string>
+    <string name="nav_verifiche">Verifiche</string>
+    <string name="nav_registrazioni">Registrazioni</string>
+    <string name="nav_note">Annotazioni</string>
+    <string name="nav_segnala_bug">Segnala un bug</string>
+
+    <!-- Toolbar Titoli Fragment -->
+    <string-array name="nav_item_fragment_titles">
+        <item>Materie</item>
+        <item>Orario</item>
+        <item>Verifiche</item>
+        <item>Registrazioni</item>
+        <item>Annotazioni</item>
+    </string-array>
+
+    <!-- Aiuti per aggiungere una materia -->
+    <string name="suggerimento_nome_materia">Nome</string>
+    <string name="aggiungi_materia">Aggiungi</string>
+
+    <!-- Messaggi di errore per inserimento di materie -->
+    <string name="errore_titolo">Il titolo non può essere vuoto</string>
+    <string name="errore_abbreviazione">L\'abbreviazione deve essere lunga 3 caratteri</string>
+    <string name="errore_colore">Selezionare un colore</string>
+    <string name="errore_immagine">Selezionare un immagine</string>
+
+</resources>
